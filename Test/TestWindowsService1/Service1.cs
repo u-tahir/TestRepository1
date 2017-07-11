@@ -9,6 +9,7 @@ using System.Text;
 
 namespace TestWindowsService1
 {
+    //comment from Dev1
     public partial class Service1 : ServiceBase
     {
         public Service1()
