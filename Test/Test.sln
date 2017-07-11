@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWindowsService2", "Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApplication1", "TestConsoleApplication1\TestConsoleApplication1.csproj", "{414FD74E-6D8F-4E80-A8C7-20FD479EE01F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsServices", "WindowsServices", "{8C4632A5-3FFD-49CC-9D8A-550A4A4C3976}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApplications", "WebApplications", "{DBD71BD9-ABF5-4075-958E-A19F44B80041}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApplications", "ConsoleApplications", "{99397FDA-95A7-4CB0-8951-1030FFAE773F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +42,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15BB5D07-275E-4E45-9EAA-37A2B1702DBB} = {DBD71BD9-ABF5-4075-958E-A19F44B80041}
+		{F822A121-565E-4ED5-A3E8-31B13823B42A} = {8C4632A5-3FFD-49CC-9D8A-550A4A4C3976}
+		{9369DA35-854B-4141-B9BA-5E78BC4EBD78} = {8C4632A5-3FFD-49CC-9D8A-550A4A4C3976}
+		{414FD74E-6D8F-4E80-A8C7-20FD479EE01F} = {99397FDA-95A7-4CB0-8951-1030FFAE773F}
 	EndGlobalSection
 EndGlobal
